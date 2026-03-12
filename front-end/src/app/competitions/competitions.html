@@ -1,0 +1,42 @@
+<select #seasonSelect (change)="onSeasonChange(seasonSelect.value)">
+  <option disabled selected value> -- Season -- </option>
+  @for(season of seasonsList(); track season) {
+      <option [value]="season.seasonId">{{season.name}}</option>
+  }
+</select>
+
+<select #competitionSelect>
+  <option disabled selected value> -- Competition -- </option>
+  @for(competition of filteredCompetitionsList(); track competition) {
+      <option [value]="competition.competitionId">{{competition.name}}</option>
+  }
+</select>
+
+<button (click)="submit(seasonSelect.value, competitionSelect.value)">Submit</button>
+
+<table>
+  <tr>
+    <th>Team Name</th>
+    <th>Played</th>
+    <th>Wins</th>
+    <th>Draws</th>
+    <th>Losses</th>
+    <th>Goals For</th>
+    <th>Goals Against</th>
+    <th>Goal Difference</th>
+    <th>Points</th>
+  </tr>
+@for(team of competitionStandings(); track team) {
+    <tr>
+      <td>{{team.teamName}}</td>
+      <td>{{team.played}}</td>
+      <td>{{team.wins}}</td>
+      <td>{{team.draws}}</td>
+      <td>{{team.losses}}</td>
+      <td>{{team.goalsFor}}</td>
+      <td>{{team.goalsAgainst}}</td>
+      <td>{{team.goalDifference}}</td>
+      <td>{{team.points}}</td>
+    </tr>
+}
+</table>

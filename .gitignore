@@ -1,0 +1,8 @@
+/.github/workflows
+/back-end/app/json_data
+**/__pycache__
+**/.pytest_cache
+/front-end/.angular/cache
+/front-end/.vscode
+/front-end/dist
+/front-end/node_modules
