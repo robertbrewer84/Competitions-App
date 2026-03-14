@@ -1,7 +1,7 @@
 name: Competitions-App
 channels:
-  - conda-forge
   - defaults
+  - main
 dependencies:
   - pip=26.0.1=pyhc872135_0
   - python=3.14.3=h653fc63_101_cp314
