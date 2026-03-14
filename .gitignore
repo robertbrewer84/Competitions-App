@@ -1,4 +1,3 @@
-/.github/workflows
 /back-end/app/json_data
 **/__pycache__
 **/.pytest_cache

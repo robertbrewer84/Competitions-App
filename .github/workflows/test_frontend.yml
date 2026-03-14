@@ -1,0 +1,21 @@
+on:
+  [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: front-end
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Frontend Tests
+        run: |
+          npm install
+          npm run lint
+          npm run test -- --watch=false --browsers=ChromeHeadless
+          npm run build
