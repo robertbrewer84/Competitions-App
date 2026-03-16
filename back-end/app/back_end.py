@@ -3,73 +3,24 @@ from flask_cors import CORS
 import json
 
 
-def load_appearances():
-    with open("json_data/appearance.json") as json_data:
-        appearances = json.load(json_data)
+def load_data(file_name):
+    with open("json_data/" + file_name + ".json") as json_data:
+        data = json.load(json_data)
         json_data.close()
-    return appearances
-
-
-def load_clubs():
-    with open("json_data/club.json") as json_data:
-        clubs = json.load(json_data)
-        json_data.close()
-    return clubs
-
-
-def load_competitions():
-    with open("json_data/competition.json") as json_data:
-        competitions = json.load(json_data)
-        json_data.close()
-    return competitions
-
-
-def load_competition_entries():
-    with open("json_data/competition_entry.json") as json_data:
-        competition_entries = json.load(json_data)
-        json_data.close()
-    return competition_entries
-
-
-def load_matches():
-    with open("json_data/match.json") as json_data:
-        matches = json.load(json_data)
-        json_data.close()
-    return matches
-
-
-def load_players():
-    with open("json_data/player.json") as json_data:
-        players = json.load(json_data)
-        json_data.close()
-    return players
-
-
-def load_seasons():
-    with open("json_data/season.json") as json_data:
-        seasons = json.load(json_data)
-        json_data.close()
-    return seasons
-
-
-def load_teams():
-    with open("json_data/team.json") as json_data:
-        teams = json.load(json_data)
-        json_data.close()
-    return teams
+    return data
 
 
 app = Flask(__name__)
 CORS(app)
 
-appearances = load_appearances()
-clubs = load_clubs()
-competitions = load_competitions()
-competition_entries = load_competition_entries()
-matches = load_matches()
-players = load_players()
-seasons = load_seasons()
-teams = load_teams()
+appearances = load_data("appearance")
+clubs = load_data("club")
+competitions = load_data("competition")
+competition_entries = load_data("competition_entry")
+matches = load_data("match")
+players = load_data("player")
+seasons = load_data("season")
+teams = load_data("team")
 
 
 @app.route("/seasons")
