@@ -1,4 +1,4 @@
-/back-end/app/json_data
+/back-end/app/data
 **/__pycache__
 **/.pytest_cache
 /front-end/.angular/cache
