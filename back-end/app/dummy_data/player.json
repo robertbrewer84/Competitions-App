@@ -1,0 +1,22 @@
+[
+ {
+   "playerId": "P000001",
+   "playerName": "Player Name 1",
+   "clubId": "CLUBNUM1"
+ },
+ {
+   "playerId": "P000002",
+   "playerName": "Player Name 2",
+   "clubId": "CLUBNUM1"
+ },
+ {
+   "playerId": "P000003",
+   "playerName": "Player Name 3",
+   "clubId": "CLUBNUM2"
+ },
+ {
+   "playerId": "P000004",
+   "playerName": "Player Name 4",
+   "clubId": "CLUBNUM3"
+ }
+]

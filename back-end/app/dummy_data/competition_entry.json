@@ -1,0 +1,22 @@
+[
+ {
+   "competitionId": "C000001",
+   "teamId": "CLUBNUM1_0001"
+ },
+ {
+   "competitionId": "C000001",
+   "teamId": "CLUBNUM1_0002"
+ },
+ {
+   "competitionId": "C000001",
+   "teamId": "CLUBNUM2_0001"
+ },
+ {
+   "competitionId": "C000003",
+   "teamId": "CLUBNUM1_0001"
+ },
+ {
+   "competitionId": "C000003",
+   "teamId": "CLUBNUM3_0001"
+ }
+]

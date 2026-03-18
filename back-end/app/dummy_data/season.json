@@ -1,0 +1,14 @@
+[ 
+  {
+      "seasonId": "S000001",
+      "name": "Season 1"
+  },
+  {
+      "seasonId": "S000002",
+      "name": "Season 2"
+  },
+  {
+      "seasonId": "S000003",
+      "name": "Season 3"
+  }
+]

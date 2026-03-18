@@ -1,0 +1,41 @@
+[
+ {
+   "matchId": "M000001",
+   "competitionId": "C000001",
+   "date": "01/01/00",
+   "time": "00:00:00",
+   "venue": "Venue Name",
+   "homeTeam": "CLUBNUM1_0001",
+   "awayTeam": "CLUBNUM1_0002",
+   "played": true,
+   "homeGoals": 10,
+   "awayGoals": 0,
+   "referee": "Referee Name 1"
+ },
+ {
+   "matchId": "M000002",
+   "competitionId": "C000001",
+   "date": "02/01/00",
+   "time": "10:00:00",
+   "venue": "Venue Name",
+   "homeTeam": "CLUBNUM1_0001",
+   "awayTeam": "CLUBNUM2_0001",
+   "played": true,
+   "homeGoals": 0,
+   "awayGoals": 10,
+   "referee": "Referee Name 2"
+ },
+ {
+   "matchId": "M000003",
+   "competitionId": "C000003",
+   "date": "03/01/00",
+   "time": "20:00:00",
+   "venue": "Venue Name",
+   "homeTeam": "CLUBNUM1_0001",
+   "awayTeam": "CLUBNUM3_0001",
+   "played": false,
+   "homeGoals": null,
+   "awayGoals": null,
+   "referee": null
+ }
+]

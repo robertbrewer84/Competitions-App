@@ -1,0 +1,32 @@
+[
+ {
+   "appearanceId": "A000001",
+   "playerId": "P000001",
+   "teamId": "CLUBNUM1_0001",
+   "matchId": "M000001",
+   "goals": 0,
+   "mvp": false,
+   "yellowCard": false,
+   "redCard": false
+ },
+ {
+   "appearanceId": "A000002",
+   "playerId": "P000002",
+   "teamId": "CLUBNUM1_0002",
+   "matchId": "M000001",
+   "goals": 1,
+   "mvp": true,
+   "yellowCard": true,
+   "redCard": false
+ },
+ {
+   "appearanceId": "A000003",
+   "playerId": "P000001",
+   "teamId": "CLUBNUM1_0001",
+   "matchId": "M000002",
+   "goals": 1,
+   "mvp": false,
+   "yellowCard": false,
+   "redCard": true
+ }
+]

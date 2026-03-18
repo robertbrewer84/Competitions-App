@@ -1,0 +1,17 @@
+[
+  {
+      "competitionId": "C000001",
+      "seasonId": "S000001",
+      "name": "Season 1 Competition 1"
+  },
+  {
+      "competitionId": "C000002",
+      "seasonId": "S000001",
+      "name": "Season 1 Competition 2"
+  },
+  {
+      "competitionId": "C000003",
+      "seasonId": "S000003",
+      "name": "Season 3 Competition 3"
+  }
+]

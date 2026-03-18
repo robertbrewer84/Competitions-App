@@ -1,0 +1,22 @@
+[
+ {
+   "teamId": "CLUBNUM1_0001",
+   "teamName": "Club Name 1 Team 1",
+   "clubId": "CLUBNUM1"
+ },
+ {
+   "teamId": "CLUBNUM1_0002",
+   "teamName": "Club Name 1 Team 2",
+   "clubId": "CLUBNUM1"
+ },
+ {
+   "teamId": "CLUBNUM2_0001",
+   "teamName": "Club Name 2 Team 1",
+   "clubId": "CLUBNUM2"
+ },
+ {
+   "teamId": "CLUBNUM3_0001",
+   "teamName": "Club Name 3 Team 1",
+   "clubId": "CLUBNUM3"
+ }
+]
